@@ -24,7 +24,7 @@ How data can be dirty:
    - Similar to the dollar sign, we could use a replace function to remove spaces, like df.columns.str.replace(' ','')
 4) Different variables might be spelled and/or abbreviated differently. For example, "St. Louis" could be St Louis, St. Louis or Saint Louis
    - We could use a for loop and conditional if/else statements to ensure that all instances are spelled the same way.
-5) Handeling of null values: Sometimes null values as written 'NULL', sometimes they are coded 0, and sometimes they just blank
+5) Handeling of null values: Sometimes null values are written 'NULL', sometimes they are coded 0, and sometimes they are just blank
    - We could use conditional if/else statements here as well. For example, we might write something like, "IF NULL column = 0" (if we wanted to replace all null values with 0. We could also search for blank/missing values, and make them 0 as well.
 
 ### 3. Look at the requirements for the exploratory data analysis project. List at least 2 APIs that have data interesting to you. Please pick at least one API that’s not listed in the project instructions.
